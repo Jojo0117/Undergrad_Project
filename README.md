@@ -1,3 +1,3 @@
-# Undergraduate Project @ Queen's University
+# Undergraduate Project-How are you served by the Internet?
 
-Project: How are you served by the Internet?
+@ Queen's University
