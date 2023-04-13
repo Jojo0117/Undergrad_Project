@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/menu.js"></script>
+  <script src="js/footer.js"></script>
   <style>
     .menu-index {
       color: rgb(255, 255, 255) !important;
@@ -32,6 +33,35 @@
 </head>
 
 <body>
+  <div class="menu-container"><div class="menu">
+    <div class="menu-table flex-row-space-between">
+      <div class="logo flex-row-center">
+        <a href="index.html">Undergraduate Project</a>
+      </div>
+      <a class="menu-button" tabindex="0" href="javascript:void(0)">
+        <img src="img/menu.png">
+      </a>
+      <div class="menu-items flex-row-center flex-item">
+        <div class="dropdown">
+          <a class="dropbtn" href="empty.html"><b>Overview</b><i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <a href="#div1">Data Description</a>
+            <a href="http://sdk.gamesyoua.com/payment/images/index/index.html#/Info/page3">Map</a>
+            <a href="#div2">Key Takeaways</a>
+            <a href="#div3">Findings</a>
+            <a href="#div4">Insights</a>
+            <a href="#div5">Benefits</a>
+          </div>
+        </div>    
+        <a class="menu-embedding" href="http://sdk.gamesyoua.com/payment/images/index/index.html#/Info/page1">Dashboard</a>
+        <a href="file/CISC_499_Report.pdf">Report</a>
+        
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div></div>
 
   <div class="banner" style="background: url('img/header.jpg') no-repeat center; background-size: cover; height: 500px;">
     <div class="banner-table flex-column" style="background-color: rgba(0, 0, 0, 0.5);">
@@ -46,7 +76,7 @@
     </div>
   </div>
   
-
+  <div id="div1">
   <div class="content">
     <div class="content-table flex-column">
       <div class="flex-row">
@@ -62,8 +92,13 @@
                  stakeholders, and the general public to better understand the state of broadband 
                  connectivity in Canada and identify areas for improvement.
           </p>
+          <h2>Project Illutration</h2>
+              <hr>
+              <a href="https://youtu.be/gZcfxvrAf38">
+                <img src="img/intro.png" alt="video" style="width:auto;height:400px;" class = "center"></a>
         </div>
       </div>
+    </div>
       
       <!--Start Text with Iframe-->
       <div class="flex-row">
@@ -85,6 +120,7 @@
       <!--END Text with Iframe-->
 
       <!--Start Text with Images-->
+      <div id="div2">
       <div class="flex-row">
         <div class="flex-item flex-column">
           <h2>Key Takeaways</h2>
@@ -98,6 +134,7 @@
           internet use.
           </p>
         </div>
+      </div>
       </div>
 
       <div class="flex-row-space-between">
@@ -134,6 +171,7 @@ individuals accessing the internet at a public library or another public locatio
     <!--End Text around Image-->
 
     <!--Findings-->
+    <div id="div3">
     <div class="flex-row">
       <div class="flex-item flex-column">
         <h2>Findings</h2>
@@ -155,6 +193,7 @@ Canada, 2021).
         </p>
       </div>
     </div>
+    </div>
 
     <div class="flex-row-space-between">
       <div class="flex-item flex-column">
@@ -162,7 +201,7 @@ Canada, 2021).
         <p class="image-caption"> Personal internet use from age 15 years and over</p>
       </div>
       
-
+      
       <div class="flex-row">
         <div class="flex-item flex-column">
           <p class="text">
@@ -191,6 +230,7 @@ high levels of internet, video streaming, or video gaming use.
           </p>
         </div>
       </div>
+      
 
       <div class="flex-row">
         <div class="flex-item flex-column">
@@ -275,6 +315,7 @@ can provide counseling and resources for individuals struggling with excessive s
 
     <!--End Findings-->
 <!--Implications-->
+<div id="div4">
 <div class="flex-row">
   <div class="flex-item flex-column">
     <h2>Insights for Stakeholders</h2>
@@ -316,8 +357,10 @@ could have the most significant impact.
     </p>
   </div>
 </div>
+</div>
 <!--Implications end-->
 
+<div id="div5">
 <div class="flex-row">
   <div class="flex-item flex-column">
     <h2>Multidimentional Benefits</h2>
@@ -346,10 +389,9 @@ The project’s interactive web application showcases the areas with limited bro
 emergency services. By enhancing internet access in these regions, emergency response times
 can be reduced, and disaster management can be more effectively coordinated, ultimately
 saving lives and property.
-
-
     </p>
   </div>
+</div>
 </div>
 <!-------------------------------------------------------------------------------------------->
 
